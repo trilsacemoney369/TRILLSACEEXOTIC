@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trilsace Exotic | Indoor THCA Flower</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+
+    .product-img {
+      flex: 1 1 400px;
+    }
+
+    .product-img img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .product-info {
+      flex: 1 1 400px;
+    }
+
+    .product-info h2 {
+      font-size: 1.75rem;
+      margin-bottom: 1rem;
+    }
+
+    .price {
+      font-size: 1.4rem;
+      color: green;
+      margin: 0.5rem 0;
+    }
+
+    .variant {
+      margin: 1rem 0;
+    }
+
+    select {
+      padding: 0.5rem;
+      font-size: 1rem;
+    }
+
+    .btn {
+      background-color: #111;
+      color: #fff;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #444;
+    }
+
+    .description {
+      margin-top: 2rem;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #f4f4f4;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    @media(max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Trilsace Exotic</h1>
+  </header>
+
+  <div class="container">
+    <div class="product-img">
+      <img src="https://images.unsplash.com/photo-1620666403254-3b5aeae7dd3c" alt="THCA Indoor Smalls"/>
+    </div>
+
+    <div class="product-info">
+      <h2>THCA Indoor Smalls – Exotic Craft Flower</h2>
+      <p class="price">$29.99</p>
+
+      <div class="variant">
+        <label for="weight">Choose weight:</label>
+        <select id="weight">
+          <option value="3.5g">3.5g</option>
+          <option value="7g">7g</option>
+          <option value="14g">14g</option>
+          <option value="28g">28g</option>
+        </select>
+      </div>
+
+      <button class="btn">Add to Cart</button>
+
+      <div class="description">
+        <h3>Product Description</h3>
+        <p>
+          Our premium indoor smalls are cultivated from top-tier exotic strains and high-THCA flower, delivering rich terpene flavor and strong effects. These are the same indoor buds you know and love—just smaller in size and BIG in potency.
+        </p>
+        <p><strong>Type:</strong> Indica-Dominant Hybrid</p>
+        <p><strong>Effects:</strong> Relaxed, Euphoric, Uplifting</p>
+        <p><strong>Lab Tested:</strong> Yes – COA Available</p>
+        <p><strong>Ships:</strong> Discreet packaging via USPS</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Trilsace Exotic. All rights reserved.
+  </footer>
+</body>
+</html>
